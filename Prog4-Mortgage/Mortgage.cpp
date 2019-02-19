@@ -18,7 +18,7 @@ void Mortgage::setLoan(double a) {
 }
 
 void Mortgage::setInterestRate(double i) {
-	rate = i;
+	rate = i / 100; // convert rate to a decimal 
 }
 
 void Mortgage::setYears(int y) {
