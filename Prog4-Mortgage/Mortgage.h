@@ -5,6 +5,7 @@ private:
 	double payment; // holds the monthly payment
 	double loan;    // holds the total loan amount
 	double rate;    // holds the monthly rate of the loan 
+	// term, payment shouldn't be instance data
 	double term;    // contains the term 
 	int years;		// holds the total period of the loan
 
